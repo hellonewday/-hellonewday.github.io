@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+img {
+	width: 50%;
+	font-size: 50%;
+	cursor: pointer;
+	border: solid green 2px;
+	border-radius: 30%;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+p {
+	color: blue;
+}
+.profile{
+	width: 100px;
+}
+header {
+	color: red;
+	font-family: "Lobster", cursive;
+	text-align: left;
+	background-color: aquamarine;
+	margin: 0px 0px ;
+}
+html {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif", "Ubuntu";
+	background-color: antiquewhite;
+	text-align:center;
+	text-decoration: none;
+}
+
+		#HeaderIcon {
+			border: none;
+			width: 35px;
+			float: left;
+			padding: 2px 20px 10px 10px;
+		}
+	button {
+			color: black;
+			display: inline-block;
+			padding: 10px 20px 10px;
+			margin: 0px 10px 20px 10px;
+			border: none;
+			color: white;
+		    cursor: pointer;
+		}
+		
+		h1 {
+			padding: 0px 0px 2px 10px ;
+			margin: 10px 20px 10px 10px;
+		}
+		.league {
+			width: 200px;
+			margin-left: 40px;
+		}
+		article  {
+			text-align: justify;
+	        background-color: bisque;
+			border: dashed 2px;
+			border-radius: 10%;
+		}
+		#CauChuyen {
+			background-color: orangered; 
+		}
+#CauChuyen:hover {
+	background-color: #FD8D00 ;
+}
+		#KiNang {
+			background-color: deepskyblue;
+		}
+#KiNang:hover {
+	background-color: #00F0FC;
+}
+#Contact:hover{
+	background-color: #4D4CB0;
+}
+		#Contact {
+			background-color: #2C35A3
+		}
+		.border {
+			border: none;
+			width: auto;
+		}
+		.IndexOverview {
+			color: red;
+		}
