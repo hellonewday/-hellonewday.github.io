@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 img {
-	width: 50%;
+	width: 100%;
 	font-size: 50%;
 	cursor: pointer;
 	border: solid green 2px;
-	border-radius: 30%;
+	border-radius: 20px;
 	text-align: center;
 }
 a {
@@ -16,7 +16,7 @@ p {
 	color: blue;
 }
 .profile{
-	width: 100px;
+	width: 200px;
 }
 header {
 	color: red;
@@ -54,7 +54,7 @@ html {
 			margin: 10px 20px 10px 10px;
 		}
 		.league {
-			width: 200px;
+			width: 380px;
 			margin-left: 40px;
 		}
 		.article-1 {
@@ -82,6 +82,12 @@ html {
 		#Contact {
 			background-color: #2C35A3
 		}
+@media only screen and (max-width: 500px){
+	.border{width: 30px;}
+	header{width: 450px;}
+	html {background-color: azure;}
+	
+}
 		.border {
 			border: none;
 			width: auto;
