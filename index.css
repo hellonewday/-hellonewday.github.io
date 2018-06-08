@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+	button {
+	border: none;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	border-radius: 20px;
+		}
+		button:hover{
+			background-color: brown;
+		}
+		.button1 {
+	border: none;
+	background-color: dodgerblue;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 20px;
+	text-align: center;
+	border-radius: 20px;
+		}
+		.button1:hover {
+			background-color: #005890;
+		}
