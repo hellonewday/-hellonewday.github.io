@@ -11,7 +11,7 @@ var HoiEm = prompt('Bạn tên là gì ?');
 		document.write('<button onclick="XinChao()"> Chào tôi đi</button>');
 		document.write('<button onclick="facebook()" class="button1"> Không thích thì quay lại facebook nha </button>')
 	}
-	else if (HoiEm === "Long"){
+	else if (HoiEm === "Long" || HoiEm === "Đức Long" || HoiEm === "Nguyễn Đức Long" || HoiEm === "Duc Long"){
 		document.write('Địt mẹ mày, ' + '' + HoiEm + '<br><br>');
 		document.write('<button onclick="XinChao() class="button2"> Chào tao đi mày </button>');
 		document.write('<button onclick="facebook()" class="button1"> Không thích thì quay lại facebook này </button>');
