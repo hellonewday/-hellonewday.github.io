@@ -10,6 +10,9 @@
 	function facebook(){
 		window.open('https://www.facebook.com/maximusss1','_blank');
 	}
+	function lolstat(){
+		window.open('http://lolstat.gg/vi/vn/summoner/lwc%CB%86legendar%C3%BF/profile','_blank');
+	}
 	</script>
 </head>
 <body>
@@ -23,16 +26,28 @@
 	<img alt="This is me" src="profile.jpg" class="profile" >
 	<img alt="game thủ" src="league.png" class="league"><br>
 	<img alt="Horizon" src="hr-blue-fire.png" class="border">
-	<p> Xin chào mọi người, mình là Nguyễn Quốc Hùng. Mình đang sống và làm việc tại Hà Nội</p>
-	<p> Mình là 1 lập trình viên giao diện website. Hiện tại mình đang là game thủ Liên Minh Huyền Thoại bán chuyên chơi ở vị trí Support cho đội Young Flames </p>
+	<p class="ChaoDon"> Xin chào mọi người, mình là Nguyễn Quốc Hùng. Mình đang sống và làm việc tại Hà Nội</p>
+	<p class="ChaoDon"> Mình là 1 lập trình viên Front-end. Hiện tại mình đang là game thủ Liên Minh Huyền Thoại bán chuyên chơi ở vị trí Support cho đội Young Flames </p></br>
+	<section>
 	<article class="article-1">
-	<ol>
+	<ul>
 	<li>Tuổi: 20</li>
 	<li>Trường học: <a href="https://www.ptit.edu.vn" class="IndexOverview">Học viện Công nghệ Bưu chính viễn thông</li></a>
-	<li> Sở thích: <a href="http://lolstat.gg/vi/vn/summoner/lwc%CB%86legendar%C3%BF/profile" class="IndexOverview"> Chơi game </a></li>
+	<li>Sở thích: <a href="http://lolstat.gg/vi/vn/summoner/lwc%CB%86legendar%C3%BF/profile" class="IndexOverview"> Chơi game </a></li>
+		</ul>
 	</article>
-	<hr>
-	Mọi thông tin chi tiết vui lòng liên hệ: 
-	<button onClick="facebook()"> <b>Facebook</b></button>
+	<article class="article-2">
+	<ul>
+		<li> Javascript: <progress max="100" value="70">Javascript</progress></li>
+		<li> C++ : <progress max="100" value="40"></progress></li>
+		<li> Python: <progress max="100" value="30"></progress></li>
+		</ul> 
+	</article>
+	</section>
+<footer><ol>
+	<li> Liên hệ với tôi tại: <button onClick="facebook()"> Facebook cá nhân</button></li>
+	<li> Xem thông tin LMHT của tôi tại: <button onClick="lolstat()">LwCˆLegendarÿ </button></li>
+	</ol>
+</footer>
 </body>
 </html>
